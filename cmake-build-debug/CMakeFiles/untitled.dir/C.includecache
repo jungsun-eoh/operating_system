@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eoh/Documents/csc415/simpleShell/SimpleShell/main.c
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+sys/wait.h
+-
+
